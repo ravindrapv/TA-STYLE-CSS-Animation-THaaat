@@ -110,6 +110,7 @@ body{
   .cube {
     position: relative;
     width: 95px;
+    margin-top: 5rem;
   }
   .side {
     height: 95px;
@@ -117,6 +118,7 @@ body{
     position: absolute;
     text-align: center;
     width: 95px;
+    margin-top: 10rem;
   }
   .top {
     background: #33cc54;
@@ -131,3 +133,15 @@ body{
     transform: rotate(-15deg) skew(-15deg, -15deg) translate(50%, 100%);
   }
   
+  .original-1 {
+    perspective-origin: 0 0;
+  }
+  .original-2 {
+    perspective-origin: 75% 75%;
+  }
+  .original-3 {
+    perspective-origin: 20px 40px;
+  }
+  .center{
+    margin-top: 5rem;
+  }
